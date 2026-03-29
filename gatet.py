@@ -40,7 +40,7 @@ def Tele(ccx):
         'payment_user_agent': 'stripe.js/560413f346; stripe-js-v3/560413f346; card-element',
         'referrer': 'https://business-umbrella.com',
         'time_on_page': '658559',
-        'key': 'pk_test_your_test_key_here',  # Replace with your Stripe test public key
+        'key': 'pk_live_51T8gWVFdqM8vqigsaZLOfRLWcBRJ17X9sHxRr9aLsde41ji8NJ7Mp62domfxSvT4vccQecnYdwZuAzw8g2MrZ9TC00oomyTlj6',  # Replace with your Stripe test public key
     }
 
     r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
